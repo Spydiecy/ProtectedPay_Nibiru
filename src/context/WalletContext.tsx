@@ -53,11 +53,11 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
         
         // Check if we're on the correct network (NeoX testnet)
         const network = await provider.getNetwork();
-        if (network.chainId !== 12227332) { // NeoX testnet chain ID
+        if (network.chainId !== 7210) { // NeoX testnet chain ID
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
-              params: [{ chainId: '0xBA9304' }], // 12227332 in hexadecimal
+              params: [{ chainId: '0x1C2A' }], // 12227332 in hexadecimal
             });
           } catch (switchError) {
             // Ensure switchError is an object with a code property
@@ -68,15 +68,15 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
                 await window.ethereum.request({
                   method: 'wallet_addEthereumChain',
                   params: [{
-                    chainId: '0xBA9304',
-                    chainName: 'NeoX Testnet',
+                    chainId: '0x1C2A',
+                    chainName: 'Nibiru Testnet',
                     nativeCurrency: {
-                      name: 'GAS',
-                      symbol: 'GAS',
+                      name: 'NIBI',
+                      symbol: 'NIBI',
                       decimals: 18
                     },
-                    rpcUrls: ['https://neoxt4seed1.ngd.network/'],
-                    blockExplorerUrls: ['https://xt4scan.ngd.network/']
+                    rpcUrls: ['https://evm-rpc.testnet-1.nibiru.fi/'],
+                    blockExplorerUrls: ['https://explorer.nibiru.fi/nibiru-testnet-1/']
                   }],
                 });
               } else {
