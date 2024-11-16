@@ -2,7 +2,7 @@
 
 ProtectedPay is a comprehensive DeFi platform on the Nibiru blockchain that provides secure transfers, group payments, and smart savings features. Built with advanced security and user experience in mind, it offers multiple ways to manage and protect your crypto assets.
 
-![image](https://github.com/user-attachments/assets/ea8a2e94-dad2-48cd-af7f-88e08d0e37a8)
+![Screenshot 2024-11-16 161150](https://github.com/user-attachments/assets/a2e6884a-eacc-4513-8dee-822447abb7d6)
 
 ## Key Features
 
@@ -36,21 +36,21 @@ ProtectedPay is a comprehensive DeFi platform on the Nibiru blockchain that prov
 ## How It Works
 
 ### Secure Transfers
-![image](https://github.com/user-attachments/assets/0522d7ca-f364-40f2-a071-71ad63abc72e)
+![Screenshot 2024-11-16 161217](https://github.com/user-attachments/assets/f7c58325-089d-46c8-a3b2-c98b71b73387)
 1. Send funds to username or address
 2. Add remarks for context
 3. Recipient claims funds
 4. Option to refund if unclaimed
 
 ### Group Payments
-![image](https://github.com/user-attachments/assets/43f78c9e-ecb2-47d4-8bec-6e506fc3ad29)
+![Screenshot 2024-11-16 161226](https://github.com/user-attachments/assets/7d251181-b7f2-44d7-9e86-b4973bc3cc4a)
 1. Create payment with target amount
 2. Set number of participants
 3. Members contribute their share
 4. Automatic distribution when complete
 
 ### Savings Pots
-![image](https://github.com/user-attachments/assets/26fcdbc5-a6d3-4e48-84d9-ba6ac28613ac)
+![Screenshot 2024-11-16 161239](https://github.com/user-attachments/assets/316de695-ff12-40aa-b948-c85dee7b1e44)
 1. Create pot with target amount
 2. Add funds progressively
 3. Track savings progress
@@ -58,7 +58,7 @@ ProtectedPay is a comprehensive DeFi platform on the Nibiru blockchain that prov
 
 ## User Interface
 
-![image](https://github.com/user-attachments/assets/39e544b8-92a4-4d72-b04e-668212a2b321)
+![Screenshot 2024-11-16 161328](https://github.com/user-attachments/assets/5f67202c-b0e1-4717-bef9-edc822598a56)
 
 ### Modern Design
 - Dark theme with neon accents
@@ -85,7 +85,7 @@ ProtectedPay is a comprehensive DeFi platform on the Nibiru blockchain that prov
 ## Video Demo
 
 Watch ProtectedPay in action:
-[Demo Video](video_link)
+[Demo Video](https://youtu.be/IITg7p8W9_o)
 
 ## Smart Contract
 
