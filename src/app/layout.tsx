@@ -10,9 +10,9 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: 'ProtectedPay | Secure Crypto Transfers on NeoX',
-  description: 'Secure crypto transfers, group payments, and smart savings on the NeoX blockchain',
-  keywords: 'crypto, payments, blockchain, NeoX, DeFi, secure transfers, group payments',
+  title: 'ProtectedPay | Secure Crypto Transfers on Nibiru',
+  description: 'Secure crypto transfers, group payments, and smart savings on the Nibiru blockchain',
+  keywords: 'crypto, payments, blockchain, Nibiru, DeFi, secure transfers, group payments',
   authors: [{ name: 'ProtectedPay' }],
 };
 

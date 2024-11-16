@@ -51,9 +51,9 @@ export const WalletProvider: React.FC<WalletProviderProps> = ({ children }) => {
         await window.ethereum.request({ method: 'eth_requestAccounts' });
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         
-        // Check if we're on the correct network (NeoX testnet)
+        // Check if we're on the correct network (Nibiru testnet)
         const network = await provider.getNetwork();
-        if (network.chainId !== 7210) { // NeoX testnet chain ID
+        if (network.chainId !== 7210) { // Nibiru testnet chain ID
           try {
             await window.ethereum.request({
               method: 'wallet_switchEthereumChain',
