@@ -58,7 +58,42 @@ import { ReactNode } from 'react';
   
   export interface PotCardProps {
     pot: SavingsPot;
-    onContribute: (id: string, amount: string) => void;
-    onBreak: (id: string) => void;
+    onContribute: (potId: string, amount: string) => Promise<void>;
+    onBreak: (potId: string) => Promise<void>;
     isLoading: boolean;
   }
+
+  export interface SavingsPot {
+    id: string;
+    potId: string;
+    owner: string;
+    name: string;
+    targetAmount: string;
+    currentAmount: string;
+    timestamp: number;
+    status: number;
+    remarks: string;
+}
+
+// Add these new interfaces
+  export interface YieldInfo {
+    apy: number;
+    risk: 'Low' | 'Medium' | 'High';
+    totalLiquidity: number;
+    volume24h: number;
+  }
+
+export interface CrossChainOpportunity {
+    chainId: string;
+    poolAddress: string;
+    apy: number;
+    token: string;
+    liquidity: number;
+}
+
+export interface PotCardProps {
+    pot: SavingsPot;
+    onContribute: (potId: string, amount: string) => Promise<void>;
+    onBreak: (potId: string) => Promise<void>;
+    isLoading: boolean;
+}

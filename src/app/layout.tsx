@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google';
 import Navbar from '@/components/Navbar';
 import RootClientLayout from './RootClientLayout'; // Import the client wrapper
 
+import BestTimeIndicator from '@/components/BestTimeIndicator';
+
 const inter = Inter({ 
   subsets: ['latin'],
   weight: ['400', '500', '600', '700'],
@@ -36,6 +38,7 @@ export default function RootLayout({
             </div>
             <main className="flex-grow relative z-10">
               {children}
+              <BestTimeIndicator />
             </main>
             <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-green-500/20 to-transparent" />
           </div>

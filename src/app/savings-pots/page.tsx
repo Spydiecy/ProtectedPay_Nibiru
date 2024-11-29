@@ -453,9 +453,9 @@ const TabButton: React.FC<TabButtonProps> = ({ isActive, onClick, icon, text, co
 );
 
 const PotCard: React.FC<PotCardProps> = ({ pot, onContribute, onBreak, isLoading }) => {
-  const [showContribute, setShowContribute] = useState(false)
-  const [amount, setAmount] = useState('')
-  const progress = calculateProgress(pot.currentAmount, pot.targetAmount)
+  const [showContribute, setShowContribute] = useState(false);
+  const progress = calculateProgress(pot.currentAmount, pot.targetAmount);
+  const [amount, setAmount] = useState('');
 
   return (
     <motion.div 

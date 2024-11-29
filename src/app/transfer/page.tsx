@@ -14,6 +14,8 @@ import {
 import { useWallet } from '@/context/WalletContext'
 import { sendToAddress, sendToUsername } from '@/utils/contract'
 
+import EuclidPriceWidget from '@/components/EuclidPriceInfo'
+
 const pageTransition = {
   initial: { opacity: 0, y: 20, scale: 0.95 },
   animate: { 
@@ -197,6 +199,7 @@ export default function TransferPage() {
                       min="0"
                       step="0.000000000000000001"
                     />
+                    <EuclidPriceWidget amount={amount} />
                   </div>
 
                   <div>

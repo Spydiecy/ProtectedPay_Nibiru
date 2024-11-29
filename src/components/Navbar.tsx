@@ -14,7 +14,8 @@ import {
   UsersIcon,
   WalletIcon,
   BanknotesIcon,
-  UserCircleIcon
+  UserCircleIcon,
+  ChartBarIcon
 } from '@heroicons/react/24/outline'
 import { useWallet } from '@/context/WalletContext'
 
@@ -25,6 +26,11 @@ const navItems = [
   { href: '/refund', label: 'Refund', icon: <ArrowLeftIcon className="w-5 h-5" /> },
   { href: '/group-payments', label: 'Group Payments', icon: <UsersIcon className="w-5 h-5" /> },
   { href: '/savings-pots', label: 'Saving Pots', icon: <BanknotesIcon className="w-5 h-5" /> },
+  { 
+    href: '/analytics', 
+    label: 'Analytics', 
+    icon: <ChartBarIcon className="w-5 h-5" /> 
+  },
 ]
 
 const Navbar: React.FC = () => {

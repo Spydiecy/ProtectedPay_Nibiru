@@ -14,6 +14,8 @@ import {
   getTransferDetails, getGroupPaymentDetails, getSavingsPotDetails 
 } from '@/utils/contract';
 
+import NetworkStatusPanel from '@/components/NetworkStatusPanel';
+
 // Animation Variants
 const fadeIn = {
   initial: { opacity: 0, y: 20, scale: 0.95 },
@@ -559,6 +561,14 @@ const SavingsPotCard: React.FC<SavingsPotCardProps> = ({ pot }) => {
             label="Active Savings"
             value={`${savingsPots.filter(pot => pot.status === 0).length} Pots`}
           />
+        </motion.div>
+
+        {/* Network Status Panel */}
+        <motion.div 
+          className="mb-12"
+          variants={pageTransition}
+        >
+          <NetworkStatusPanel />
         </motion.div>
 
         {/* Username Registration Section */}
