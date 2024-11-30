@@ -2,7 +2,7 @@
 
 ProtectedPay is a comprehensive DeFi platform that bridges Nibiru and Euclid protocols, providing secure transfers, group payments, smart savings features, and real-time cross-chain insights. Built with advanced security and user experience in mind, it offers multiple ways to manage and protect your crypto assets across chains.
 
-![Screenshot 2024-11-16 161150](https://github.com/user-attachments/assets/a2e6884a-eacc-4513-8dee-822447abb7d6)
+![image](https://github.com/user-attachments/assets/c1f3dc49-75e1-4675-8236-d0b6dbb6adda)
 
 ## Key Features
 
