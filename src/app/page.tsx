@@ -124,7 +124,7 @@ const Hero = () => {
           className="text-3xl md:text-4xl mb-12 text-gray-300 max-w-3xl mx-auto font-light"
           variants={fadeIn}
         >
-          Secure Crypto Transfers, Group Payments, and Smart Savings on Nibiru
+          Secure Crypto Transfers, Group Payments, and Smart Savings on Nibiru & Euclid
         </motion.p>
 
         <motion.div 
@@ -230,7 +230,17 @@ const Features = () => (
         <FeatureCard
           icon={<ShieldCheckIcon className="w-12 h-12" />}
           title="Secure Transfers"
-          description="Send crypto with peace of mind. Funds are protected by smart contracts until claimed."
+          description="Send crypto with peace of mind. Smart contracts protect funds until claimed with real-time Euclid protocol integration."
+        />
+        <FeatureCard
+          icon={<ChartBarIcon className="w-12 h-12" />}
+          title="Real-Time Exchange Rates"
+          description="Get live exchange rates and optimal transfer timing through Euclid's unified liquidity layer."
+        />
+        <FeatureCard
+          icon={<ArrowPathIcon className="w-12 h-12" />}
+          title="Network Status"
+          description="Monitor Euclid and Nibiru network health with real-time metrics and pool conditions."
         />
         <FeatureCard
           icon={<UsersIcon className="w-12 h-12" />}
@@ -240,22 +250,12 @@ const Features = () => (
         <FeatureCard
           icon={<BanknotesIcon className="w-12 h-12" />}
           title="Savings Pots"
-          description="Create personal savings goals and track your progress towards financial targets."
+          description="Create personal savings goals and track your progress with real-time market insights."
         />
         <FeatureCard
           icon={<UserCircleIcon className="w-12 h-12" />}
-          title="Username Support"
-          description="Send funds using memorable usernames instead of complex addresses."
-        />
-        <FeatureCard
-          icon={<ArrowPathIcon className="w-12 h-12" />}
-          title="Easy Refunds"
-          description="Recover funds instantly if sent to the wrong address or username."
-        />
-        <FeatureCard
-          icon={<ChartBarIcon className="w-12 h-12" />}
-          title="Transaction History"
-          description="Track all your transfers, group payments, and savings in one place."
+          title="Cross-Chain Support"
+          description="Seamlessly transfer between Nibiru and Euclid with optimized routing and live pool status."
         />
       </div>
     </div>
