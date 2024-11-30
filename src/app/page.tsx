@@ -230,7 +230,7 @@ const Features = () => (
         <FeatureCard
           icon={<ShieldCheckIcon className="w-12 h-12" />}
           title="Secure Transfers"
-          description="Send crypto with peace of mind. Smart contracts protect funds until claimed with real-time Euclid protocol integration."
+          description="Send crypto with peace of mind. Funds are protected until claimed with real-time Euclid integration."
         />
         <FeatureCard
           icon={<ChartBarIcon className="w-12 h-12" />}
