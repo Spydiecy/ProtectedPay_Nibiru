@@ -136,7 +136,7 @@ ProtectedPay is a comprehensive DeFi platform that bridges Nibiru and Euclid pro
 
 ## Video Demo
 Watch ProtectedPay in action:
-[Demo Video](https://youtu.be/IITg7p8W9_o)
+[Demo Video](https://youtu.be/bDb7oIpW7jI)
 
 ## Support
 For questions or issues:
